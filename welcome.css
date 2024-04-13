@@ -1,0 +1,48 @@
+body{
+    background-image: url("./ntc_images/Login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btnLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 890px;
+  }
+.footer{
+    position: absolute;
+    top: 100vh ;
+    width: 100%;
+    background-color: navy;
+}
+.textColor{
+    color: yellow;
+}
+#buttonLarge{
+    font-size: 50px;
+    width: 425px;
+    background-color: navy;
+    color: rgb(240, 203, 38);
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#buttonLarge:hover{
+    background-color: rgb(240, 203, 38);
+    color: navy;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+#schoolLogo{
+    width: 25%;
+    height: 25%;
+
+}
+.positionLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgb(240, 203, 38);
+    border: 50px;
+}
